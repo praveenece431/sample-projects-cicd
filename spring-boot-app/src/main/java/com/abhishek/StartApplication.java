@@ -1,4 +1,4 @@
-package com.abhishek;
+package com.praveen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "I have successfuly built a sprint boot application using Maven");
-        model.addAttribute("msg", "This application is deployed on to Kubernetes using Argo CD");
+        model.addAttribute("title", "Ya Hoo..! I have successfuly built and deployed the sprint boot application using Maven");
+        model.addAttribute("msg", "This application is deployed on to Kubernetes Jenkins");
         return "index";
     }
 
