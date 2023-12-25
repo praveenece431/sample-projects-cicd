@@ -15,7 +15,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-container
-        #image: praveen431ece/spring-boot:9
         image: praveen431ece/spring-boot:tagversion
         ports:
         - containerPort: 8070
