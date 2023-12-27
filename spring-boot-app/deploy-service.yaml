@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-container
-        image: praveen431ece/spring-boot:tagversion
+        image: 082155384999.dkr.ecr.us-east-1.amazonaws.com/spring-boot:tagversion
         ports:
         - containerPort: 8080
 ---
